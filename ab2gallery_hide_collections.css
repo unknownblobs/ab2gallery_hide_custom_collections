@@ -1,0 +1,97 @@
+.el-card {
+	position: relative;
+}
+
+.el-card .details a span {
+    position: relative;
+    z-index: 1;
+    color: #8a8a8a;
+}
+
+.avatar-text-container {
+    display: flex;
+    z-index: 1;
+    position: relative;
+}
+
+.el-card .details a::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    color: #d0d4d4;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
+
+/* BLOCKED */
+.el-card .details a[href="/address/XXXXXXX"]::before,
+.el-card .details a[href="/address/XXXXXXX"]::before,
+.el-card .details a[href="/address/XXXXXXX"]::before,
+/* Evil Rabbit Crew */
+.el-card .details a[href="/address/TGCSEWZZK5T7Q6WZQWMMHMU4QKJXGYBEUX4ZWUCOD77AFLE5JLPWUS3PCI"]::before,
+/* Algo-Sword (ALGOATOR) */
+.el-card .details a[href="/address/W62EDINTE7ZSBAVS5TRZ2RZSBQAWFNHYVQUOPNOEUADGXRDOSZPR)6KP4IE"]::before,
+/* PixelRabbits (ALGOATOR) */
+.el-card .details a[href="/address/5XX33MMKRQDVII3FL2AXAGQ55UKS3N5KL7ZUMAQA3JE7GQGHNDN3ESRNUI"]::before,
+/* Algo Sneakers (ALGOATOR) */
+.el-card .details a[href="/address/VOHHV6CJUFCAR75ZZVP7E3RK2WX3QWNUH7CMEEO53X2S77Y62X2WHDRORA"]::before,
+/* AlgoBae (ALGOATOR) */
+.el-card .details a[href="/address/EGB253TV2IWE7TRITMWBKTWTT2BD3NZTNC23K67BRETE5TVFLUH7FRFPUY"]::before,
+/* ALGOATOR self purchases */
+.el-card .details a[href="/address/USVFPSQZ3Q42ZPD6KV4OLRRLMZYCADH3ZKW6YFKF2EU5SK6WRGSM7WA5U4"]::before,
+/* 3 Pixelart Accounts same? self circle purchases */
+.el-card .details a[href="/address/VXESFXYB2O3U7UEY7TWSFXA7O4T5KD6AI2XBNB7B5TJHY2EQWWJS3DX6QI"]::before,
+.el-card .details a[href="/address/DESPOHE3CLLID5FUWBYC3UX4ACW4WOQWE6DVTG2H6NO72FK5A6ZMVG2U5I"]::before,
+.el-card .details a[href="/address/EQC6MRCB2RVDQS4UEZ54DVWJDXCW4DTURSKCZH3QDQY4KP4I3PIELV5BHI"]::before,
+/* Death Knight */
+.el-card .details a[href="/address/RYZWOF7LH5SZKVMJBBATU7GCLGV3S5EVIUMMTMEG2EM253UAVOLQSY6XCQ"]::before,
+/* Hero Girl */
+.el-card .details a[href="/address/SIK5FZCGRYZOSG42T5XQ5JWCUDFCGIERU6B4DWKVVPA4HN45VCAHN63OSY"]::before,
+/* NFTinsomnia */
+.el-card .details a[href="/address/4JD7IEKUWMAKDCCUEVT2H3NR5GMO3GZXEOIBD7OMSPFNQ7ZZRX77TM3RC4"]::before,
+/* Komodo bees */
+.el-card .details a[href="/address/Z6YGQHEQT77LFRFKRSS4XMMKS4QUOUWZLB7EADHJVFPM5X4ANLTWGLNEHQ"]::before,
+/* Punk Kid Crypto - parent account flagged */
+.el-card .details a[href="/address/QEKFA5YGVXZXUDIJOMPMRIBQHSX3V4WZGKEX7GK4MXC7YFBFUTRKE6J2JM"]::before,
+/* MOF */
+.el-card .details a[href="/address/DWJAMFDIN7FWHJTHZKNZA6UQHSRTMFF4Y7HJPRW7GJPHV2JR4YLTVZI5SQ"]::before,
+/* Action Apes */
+.el-card .details a[href="/address/CO4CZ5XDPK4IFY3G6NAIL626TDHN3DVVPBNFYTDHX4YHUCOEISQUEE7DHE"]::before,
+/* Akira */
+.el-card .details a[href="/address/LHVDJUSLI2PRT2AEUYVYY43X5TC72LYW26YDN2TTINTKOYOB2LUWDB7VHI"]::before,
+/* A. Rex Babies */
+.el-card .details a[href="/address/SS72W76UMWTLMRLTYTA4JP7MV7Q7KEAPFG3YUX6DSJQ7IIALJGVUCMNHO4"]::before,
+/* G.O.A.T */
+.el-card .details a[href="/address/AJR4ULLKYPZJ5JA5LV54FERZJKFRY44HN26HEHY6WRIURPQF5FGDO6KWQI"]::before,
+/* Space Roosters */
+.el-card .details a[href="/address/2IWYFTAX2XXAD7P2D6SMK4F2BATFQHJEXMVXUVNXALN4PKKY2UFDMFF4DQ"]::before,
+/* ALGOGİ */
+.el-card .details a[href="/address/OHZH6BHI3ZUXTWVNUVCFZSX6GQZNL6OGPH7D42OZM7GLR7E2NWTJWI57LQ"]::before,
+/* Kid Monstaz Club */
+.el-card .details a[href="/address/E5F6JBXY546EUT4FG34D6FTLMGLZWOW6XIEKG3YBM6UUDYYV6IPZ7NNZWU"]::before,
+/* Algoclowns */
+.el-card .details a[href="/address/XLBW5C6TU7VQ5SOMGRPG5ECETJBZS7MZBY2Q3FKUDUEHZENQONR5AQMCUE"]::before,
+/* Algo Dragaroo */
+.el-card .details a[href="/address/W5YH3ORMPGR7QBGQSPFGJ4EYY25BGTRGIVPTEYYRH2QCQXIRKRDRC7TU5A"]::before,
+/* Cat's O Mews */
+.el-card .details a[href="/address/YJOK34OIXII4MAW7OEJPUAOAGW5V4RLLLR52WKVQ3UQXSIRJQI2BN5VMQU"]::before,
+/* Mystical Mantis */
+.el-card .details a[href="/address/NAFE4FCBPAY2NWZ6ARV3NVLFKYGZDPL3YYS5QUVKB4KCMIOMEI2TKPIVMY"]::before,
+/* Algo Plankton */
+.el-card .details a[href="/address/AEG367HVTPAOYKQP22YWC5HSELQYYYPIS3ETU4BUQGMXTSPOBIVTOSETCA"]::before,
+/* Nightmare_on_ALGO */
+.el-card .details a[href="/address/B6WSBLRV5MNTOOARQVUI5IDZ4KZBGJRCGIS6SXR4UIBJQC4ZQ2RFKXT7UY"]::before,
+/* AlgoRex Egg  */
+.el-card .details a[href="/address/SOGC5RAIGG5TTHSYTJOTSUXOEL5LLNNGQTSA47IA532QYARIRTE6YBL7PI"]::before  {
+    content: "Hidden Shit";
+    background-color: #eff0f0;
+    box-shadow: inset 3px 3px 12px -8px #767676;
+}
