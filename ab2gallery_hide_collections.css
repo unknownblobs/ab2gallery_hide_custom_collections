@@ -36,8 +36,10 @@
 .el-card .details a[href="/address/XXXXXXX"]::before,
 .el-card .details a[href="/address/XXXXXXX"]::before,
 .el-card .details a[href="/address/XXXXXXX"]::before,
-.el-card .details a[href="/address/XXXXXXX"]::before,
-.el-card .details a[href="/address/XXXXXXX"]::before,
+/* Muggles Skeletos Club */
+.el-card .details a[href="/address/57LYIXYDFO47DW7VGDKGPSKEEBYFSHADFNMPRCV6ORVLQYD2UHPVYICNYI"]::before,
+/* Punk Boys */
+.el-card .details a[href="/address/SU4AQUBGMLGT6ARFIA5PH2RLVKWXXDRH2M46G32BP4FUQGHWCJEVEVVNSM"]::before,
 /* Pixel Apes */
 .el-card .details a[href="/address/JBIKZVGE5KX5HRCJDHF7K4JED7SIM2N5PS7325T32R3WY36BIVEQXK2DQE"]::before,
 /* The Skullpinos */
